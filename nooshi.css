@@ -1,0 +1,46 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+body
+{
+    background-color: var(--Very-Light-Gray);
+
+}
+
+.supervisor {
+    border-top: 3px solid var(--Cyan);
+    margin-top: 100px;
+
+}
+
+.team-builder {
+    border-top: 3px solid var(--red);
+
+
+
+}
+
+.karma {
+    border-top: 3px solid var(--Orange);
+}
+
+.calculator {
+    border-top: 3px solid var(--Blue);
+    margin-top: 100px;
+}
+.card
+{
+    border-radius: 10px;
+}
